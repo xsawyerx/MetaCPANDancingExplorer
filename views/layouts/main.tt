@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=<% settings.charset %>" />
+    <title>MetaCPAN Dancing Explorer</title>
+    <link rel="stylesheet" href="<% request.uri_base %>/css/reset.css" />
+    <link rel="stylesheet" href="<% request.uri_base %>/css/text.css" />
+    <link rel="stylesheet" href="<% request.uri_base %>/css/960_12_col.css" />
+    <link rel="stylesheet" href="<% request.uri_base %>/css/style.css" />
+</head>
+<body>
+<div class="container_12">
+    <h1>MetaCPAN Dancing Explorer</h1>
+
+    <div class="grid_12" id="menu">
+    <%- menu = [ {
+        title = "Main"
+        path  = "/"
+    }, {
+        title = "Author"
+        path  = "/author"
+    }, {
+        title = "Release"
+        path  = "/release"
+    }, {
+        title = "Module/File/POD"
+        path  = "/module"
+    }, {
+        title = "JSON POST"
+        path  = "/post"
+    } ] %>
+        <ul id='menu'>
+        <% FOREACH item IN menu %>
+            <li class="button">
+            <% IF request.request_uri == item.path %>
+                <a class='current' href='<% item.path %>'><% item.title %></a>
+            <% ELSE %>
+                <a href='<% item.path %>'><% item.title %></a>
+            <% END %>
+            </li>
+        <% END %>
+        </ul>
+    </div>
+    <div class="clear"></div>
+
+    <% content %>
+
+    <div class="grid_12" id="footer">
+        <p>Powered by <a href="http://perldancer.org/">Dancer</a> <% dancer_version %></p>
+    </div>
+</div>
+</body>
+</html>

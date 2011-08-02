@@ -1,0 +1,9 @@
+    <div class="grid_12">
+        <h2>What is MetaCPAN Dancing Explorer</h2>
+        <p>It is a way to view MetaCPAN's API functionality using
+        <a href="http://metacpan.org/dist/MetaCPAN::API">MetaCPAN::API</a> and
+        <a href="http://metacpan.org/dist/Dancer">Dancer</a>.</p>
+
+        <h2>What do I do here</h2>
+        <p>You simply pick a section from above and it will show usage examples.</p>
+    </div>

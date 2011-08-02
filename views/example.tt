@@ -1,0 +1,24 @@
+    <div class="grid_12">
+        <h2>Authors</h2>
+    </div>
+    <div class="clear"></div>
+
+    <div class="grid_6">
+        <h3>Fetching author using PAUSE ID</h3>
+        <script src="<% gistp %>author-pauseid.pl"></script>
+    </div>
+
+    <div class="grid_6">
+        <textarea rows="15" cols="60"><% examples.0 %></textarea>
+    </div>
+    <div class="clear"></div>
+
+    <div class="grid_6">
+        <h3>Fetching author twitter with complex search</h3>
+        <script src="<% gistp %>author-search-twitterprofile.pl"></script>
+    </div>
+
+    <div class="grid_6">
+        <textarea rows="15" cols="60"><% examples.1 %></textarea>
+    </div>
+    <div class="clear"></div>
