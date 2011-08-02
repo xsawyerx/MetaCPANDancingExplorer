@@ -27,7 +27,7 @@ __END
         push @examples, capture { eval $content };
     }
 
-    template example => { examples => \@examples, gistp => $gistp };
+    template authors => { examples => \@examples, gistp => $gistp };
 };
 
 true;
