@@ -58,7 +58,6 @@ function run_example( path, file, id ) {
     jx.load( url, function(data) {
         var elem = document.getElementById(id);
 
-        alert(data);
         elem.value = data;
     } );
 
