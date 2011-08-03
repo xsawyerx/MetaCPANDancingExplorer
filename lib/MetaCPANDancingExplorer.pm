@@ -26,7 +26,7 @@ use Data::Dump 'dd';
 dd $author;
 __END
 
-    return to_json { content => ( capture { eval $content } || '' ) };
+    return capture { eval $content } || 'error';
 
 };
 
