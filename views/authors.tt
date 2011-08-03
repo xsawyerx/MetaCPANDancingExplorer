@@ -3,8 +3,8 @@
     </div>
     <div class="clear"></div>
 
+    <h3>Fetching author using PAUSE ID</h3>
     <div class="grid_6">
-        <h3>Fetching author using PAUSE ID</h3>
         <script src="<% gistp %>author-pauseid.pl"></script>
         <div class="grid_2">&nbsp;</div>
         <div class="grid_2">
@@ -18,8 +18,8 @@
     </div>
     <div class="clear"></div>
 
+    <h3>Fetching author twitter with complex search</h3>
     <div class="grid_6">
-        <h3>Fetching author twitter with complex search</h3>
         <script src="<% gistp %>author-search-twitterprofile.pl"></script>
         <div class="grid_2">&nbsp;</div>
         <div class="grid_2">
