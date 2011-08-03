@@ -54,10 +54,10 @@
 <script type="text/javascript" src="<% request.uri_base %>/javascript/jx_compressed.js"></script>
 <script type="text/javascript">
 function run_example( path, file, id ) {
-    var url = "/" + path + "/" + file;
-    jx.load( url, function(data) {
-        var elem = document.getElementById(id);
+    var url  = "/" + path + "/" + file;
+    var elem = document.getElementById(id);
 
+    jx.load( url, function(data) {
         elem.innerHTML = '<textarea rows="15" cols="60">' + data + '</textarea>';
     } );
 
