@@ -51,4 +51,18 @@
     </div>
 </div>
 </body>
+<script type="text/javascript" src="<% request.uri_base %>/javascript/jx_compressed.js"></script>
+<script type="text/javascript">
+function run_example( path, file, id ) {
+    var url = "/" + path + "/" + file;
+    jx.load( url, function(data) {
+        var elem = document.getElementById(id);
+
+        alert(data);
+        elem.value = data;
+    } );
+
+    return false;
+}
+</script>
 </html>

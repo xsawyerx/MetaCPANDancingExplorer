@@ -6,19 +6,21 @@
     <div class="grid_6">
         <h3>Fetching author using PAUSE ID</h3>
         <script src="<% gistp %>author-pauseid.pl"></script>
+        <a class="button" href="#" onclick="run_example('author', 'author-pauseid.pl', 'example1');">Try it!</a>
     </div>
 
     <div class="grid_6">
-        <textarea rows="15" cols="60"><% examples.0 %></textarea>
+        <textarea rows="15" cols="60" id="example1"></textarea>
     </div>
     <div class="clear"></div>
 
     <div class="grid_6">
         <h3>Fetching author twitter with complex search</h3>
         <script src="<% gistp %>author-search-twitterprofile.pl"></script>
+        <a class="button" href="#" onclick="run_example('author', 'author-search-twitterprofile.pl', 'example2');">Try it!</a>
     </div>
 
     <div class="grid_6">
-        <textarea rows="15" cols="60"><% examples.1 %></textarea>
+        <textarea rows="15" cols="60" id="example2"></textarea>
     </div>
     <div class="clear"></div>
