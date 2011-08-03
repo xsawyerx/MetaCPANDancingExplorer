@@ -57,6 +57,8 @@ function run_example( path, file, id ) {
     var url  = "/" + path + "/" + file;
     var elem = document.getElementById(id);
 
+    elem.innerHTML = '<img src="<% request.uri_base %>/images/ajax-loader.gif" />';
+
     jx.load( url, function(data) {
         elem.innerHTML = '<textarea rows="15" cols="60">' + data + '</textarea>';
     } );
