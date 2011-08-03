@@ -53,6 +53,14 @@ div#menu {
     padding-bottom: 30px;
 }
 
+div.buttonstart {
+    padding-top: 40px;
+}
+
+div.example {
+    padding-bottom: 80px;
+}
+
 #footer {
     clear:         both;
     padding-top:   2em;

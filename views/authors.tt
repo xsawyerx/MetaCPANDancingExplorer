@@ -6,29 +6,29 @@
     <h3>Fetching author using PAUSE ID</h3>
     <div class="grid_6">
         <script src="<% gistp %>author-pauseid.pl"></script>
+    </div>
+
+    <div class="grid_6 example" id="example1">
         <div class="grid_2">&nbsp;</div>
-        <div class="grid_2">
+        <div class="grid_2 buttonstart">
         <a class="sexybutton" href="#" onclick="run_example('author', 'author-pauseid.pl', 'example1');"><span><span>Try it!</span></span></a>
         </div>
         <div class="grid_2">&nbsp;</div>
         <div class="clear"></div>
-    </div>
-
-    <div class="grid_6" id="example1">
     </div>
     <div class="clear"></div>
 
     <h3>Fetching author twitter with complex search</h3>
     <div class="grid_6">
         <script src="<% gistp %>author-search-twitterprofile.pl"></script>
+    </div>
+
+    <div class="grid_6 example" id="example2">
         <div class="grid_2">&nbsp;</div>
-        <div class="grid_2">
+        <div class="grid_2 buttonstart">
         <a class="sexybutton" href="#" onclick="run_example('author', 'author-search-twitterprofile.pl', 'example2');"><span><span>Try it!</span></span></a>
         </div>
         <div class="grid_2">&nbsp;</div>
         <div class="clear"></div>
-    </div>
-
-    <div class="grid_6" id="example2">
     </div>
     <div class="clear"></div>
