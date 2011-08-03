@@ -9,8 +9,7 @@
         <a class="button" href="#" onclick="run_example('author', 'author-pauseid.pl', 'example1');">Try it!</a>
     </div>
 
-    <div class="grid_6">
-        <textarea rows="15" cols="60" id="example1"></textarea>
+    <div class="grid_6" id="example1">
     </div>
     <div class="clear"></div>
 
@@ -20,7 +19,6 @@
         <a class="button" href="#" onclick="run_example('author', 'author-search-twitterprofile.pl', 'example2');">Try it!</a>
     </div>
 
-    <div class="grid_6">
-        <textarea rows="15" cols="60" id="example2"></textarea>
+    <div class="grid_6" id="example2">
     </div>
     <div class="clear"></div>
