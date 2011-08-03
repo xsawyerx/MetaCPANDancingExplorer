@@ -66,4 +66,5 @@ function run_example( path, file, id ) {
     return false;
 }
 </script>
+<link rel="stylesheet" href="/SexyButtons/sexybuttons.css" type="text/css" />
 </html>
