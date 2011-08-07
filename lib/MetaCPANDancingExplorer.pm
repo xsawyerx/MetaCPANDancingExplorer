@@ -3,7 +3,7 @@ use Dancer ':syntax';
 use Capture::Tiny 'capture';
 use WWW::GitHub::Gist;
 
-our $VERSION = '0.1';
+our $VERSION = '0.02';
 
 # basic variables
 my $gist  = WWW::GitHub::Gist->new( id => 1119648 );
