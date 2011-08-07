@@ -4,12 +4,11 @@ use Capture::Tiny 'capture';
 use WWW::GitHub::Gist;
 
 my $gist  = WWW::GitHub::Gist->new( id => 1119648 );
-my $gistp = 'https://gist.github.com/1119648.js?file=';
 
 prefix '/author';
 
 get '/' => sub {
-    template authors => { gistp => $gistp };
+    template 'authors';
 };
 
 get '/:file' => sub {
